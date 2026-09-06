@@ -1,5 +1,5 @@
 public class Main {
-    static void main() {
+    static void main(String[] args) {
 
         System.out.println("\n\tЗадание#1\n");
 
@@ -12,13 +12,13 @@ public class Main {
 
         System.out.println("\n\tЗадание#2\n");
 
-        System.out.println(fullName.toUpperCase());
+        System.out.println("Данные Ф.И.О. сотрудника для заполнения отчета — " + fullName.toUpperCase());
 
         System.out.println("\n\tЗадание#3\n");
 
         String fullName1 = "Иванов Семён Семёнович";
         String newFullName = fullName1.replace('ё', 'е');
-        System.out.println("Данные Ф.И.О. сотрудника " + newFullName);
+        System.out.println("Данные Ф.И.О. сотрудника — " + newFullName);
 
     }
 }
